@@ -1,5 +1,11 @@
 # Readability OAuth1 Provider for Laravel Socialite
 
+[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/SocialiteProviders/Readability.svg?style=flat-square)](https://scrutinizer-ci.com/g/SocialiteProviders/Readability/?branch=master)
+[![Latest Stable Version](https://img.shields.io/packagist/v/socialiteproviders/readability.svg?style=flat-square)](https://packagist.org/packages/socialiteproviders/readability)
+[![Total Downloads](https://img.shields.io/packagist/dt/socialiteproviders/readability.svg?style=flat-square)](https://packagist.org/packages/socialiteproviders/readability)
+[![Latest Unstable Version](https://img.shields.io/packagist/vpre/socialiteproviders/readability.svg?style=flat-square)](https://packagist.org/packages/socialiteproviders/readability)
+[![License](https://img.shields.io/packagist/l/socialiteproviders/readability.svg?style=flat-square)](https://packagist.org/packages/socialiteproviders/readability)
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Contents
