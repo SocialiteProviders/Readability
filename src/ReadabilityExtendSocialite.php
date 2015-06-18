@@ -1,4 +1,5 @@
 <?php
+
 namespace SocialiteProviders\Readability;
 
 use SocialiteProviders\Manager\SocialiteWasCalled;

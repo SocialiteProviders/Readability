@@ -1,4 +1,5 @@
 <?php
+
 namespace SocialiteProviders\Readability;
 
 use Laravel\Socialite\One\User;
@@ -44,12 +45,12 @@ class Server extends BaseServer
      */
     public function userDetails($data, TokenCredentials $tokenCredentials)
     {
-        $user           = new User();
+        $user = new User();
         $user->nickname = $data['username'];
-        $user->name     = $data['first_name'].' '.$data['last_name'];
-        $user->email    = $data['email_into_address'];
-        $user->avatar   = $data['avatar_url'];
-        $user->extra    = array_diff_key($data, array_flip([
+        $user->name = $data['first_name'].' '.$data['last_name'];
+        $user->email = $data['email_into_address'];
+        $user->avatar = $data['avatar_url'];
+        $user->extra = array_diff_key($data, array_flip([
             'username', 'first_name', 'last_name',
             'email_into_address', 'avatar_url',
         ]));
